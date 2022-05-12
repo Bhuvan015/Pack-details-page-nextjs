@@ -6,6 +6,7 @@ import { Navbar } from '../components/Navbar'
 import { PackInfoContainer } from '../components/PackInfoContainer'
 import { PackContent } from '../components/PackContent'
 import { PackPlayers } from '../components/PackPlayers'
+import { Footer } from '../components/Footer'
 
 
 
@@ -31,6 +32,8 @@ const Home: NextPage = () => {
       {/* Pack Players */}
       <PackPlayers />
 
+       {/* Footer */}
+       <Footer/>
     </Container>
   )
 }

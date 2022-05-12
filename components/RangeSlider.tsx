@@ -17,7 +17,7 @@ export const RangeSlider: React.FC<Props> = ({max, val}) => {
 
             <FloatingBox>
                 <H1>
-                    1000 Sold / 5000 Packs
+                    {val} Sold / {max} Packs
                 </H1>
             </FloatingBox>
             
