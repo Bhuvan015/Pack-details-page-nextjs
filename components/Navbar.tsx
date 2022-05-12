@@ -1,5 +1,4 @@
 import styled from '@emotion/styled'
-import {jsx, css} from '@emotion/react'
 import Image from 'next/image';
 import LogoImg from '../public/Logo.png'
 import UserIcon from '../public/user.png'

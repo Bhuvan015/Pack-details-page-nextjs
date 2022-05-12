@@ -5,6 +5,7 @@ import styled from '@emotion/styled'
 import { Navbar } from '../components/Navbar'
 import { PackInfoContainer } from '../components/PackInfoContainer'
 import { PackContent } from '../components/PackContent'
+import { PackPlayers } from '../components/PackPlayers'
 
 
 
@@ -27,7 +28,8 @@ const Home: NextPage = () => {
       {/* Pack Content */}
       <PackContent/>
 
-
+      {/* Pack Players */}
+      <PackPlayers />
 
     </Container>
   )

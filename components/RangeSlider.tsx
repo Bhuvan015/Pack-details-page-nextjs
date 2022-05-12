@@ -1,5 +1,4 @@
 import styled from '@emotion/styled'
-import SliderImage from '../public/Slider-4x.png'
 
 interface Props {
   max : number,
@@ -17,9 +16,9 @@ export const RangeSlider: React.FC<Props> = ({max, val}) => {
             />
 
             <FloatingBox>
-                <h1>
+                <H1>
                     1000 Sold / 5000 Packs
-                </h1>
+                </H1>
             </FloatingBox>
             
         </Container>
@@ -32,6 +31,20 @@ const Container = styled.div`
     position: relative;
 
 `
+const H1 = styled.h1`
+    font-size: 12px;
+    font-weight: 800;
+    text-transform: uppercase;
+
+    @media only screen and (max-width: 768px) {
+        & {
+            font-size: 10px;
+            font-weight: 800;
+            text-transform: uppercase;
+        }
+    }
+`
+
 const Input = styled.input`
 
 `
@@ -46,19 +59,8 @@ const FloatingBox = styled.div`
     top: 25px;
     border-radius: 2px;
 
-    h1 {
-        font-size: 12px;
-        font-weight: 800;
-        text-transform: uppercase;
-    }
-
 
     @media only screen and (max-width: 768px) {
-        h1 {
-            font-size: 10px;
-            font-weight: 800;
-            text-transform: uppercase;
-        }
         & {
             padding: 0 2px;
         }
