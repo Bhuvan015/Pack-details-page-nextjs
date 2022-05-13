@@ -16,7 +16,7 @@ export const Navbar: React.FC<Props> = (props) => {
          <NavContainer>
             <Nav>
                 {/* Logo Image*/}
-                <a href="#">
+                <a href="/">
                     <Image src={LogoImg} alt="Rario Logo" height={logoHeight} width= {logoWidth}/>
                 </a> 
 
@@ -26,11 +26,11 @@ export const Navbar: React.FC<Props> = (props) => {
                     <Options>
                         
                         <div>
-                            <a href="#">MArketplace</a>
+                            <a href="https://rario.com/marketplace" target="_blank">MArketplace</a>
                             <span>Sept 2021</span>
                         </div>
                         <div>
-                            <a href="#">Vault</a>
+                            <a href="https://medium.com/rario" target="_blank">Vault</a>
                             <span>Sept 2021</span>
                         </div>
                         <div>
@@ -55,12 +55,12 @@ export const Navbar: React.FC<Props> = (props) => {
                                 <div className="mobile">
 
                                     <div className="block">
-                                        <a href="#">Marketplace</a>
+                                        <a href="https://rario.com/marketplace" target="_blank">Marketplace</a>
                                         <span>Sept 2021</span>
                                     </div>
 
                                     <div className="block">
-                                        <a href="#">Vault</a>
+                                        <a href="https://medium.com/rario" target="_blank">Vault</a>
                                         <span>Sept 2021</span>
                                     </div>
 

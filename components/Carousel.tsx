@@ -16,4 +16,10 @@ export const Carousel: React.FC<Props> = (props) => {
 
 const Container = styled.div`
     width: 100%:
+    position: relative;
+    z-index: 100;
+
+    &:hover {
+        cursor: pointer;
+    }
 `

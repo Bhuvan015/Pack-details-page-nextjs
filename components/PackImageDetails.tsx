@@ -104,6 +104,13 @@ const ImageContainer = styled.div`
         height: 35%;
         width: 200px;
     }
+
+    @media only screen and (max-width: 600px) {
+        height: 20%;
+        width: 150px;
+    }
+
+
 `
 const PackOrder = styled.div`
     height: 100%;

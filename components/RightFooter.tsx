@@ -12,18 +12,17 @@ export const RightFooter: React.FC<Props> = (props) => {
     return(
         <Container>
             <LinksContainer>
-                <a href="">Blogs</a>
-                <a href="">Terms</a>
-                <a href="">Privacy</a>
-                <a href="">Help</a>
-                <a href="">Press</a>
-                <a href="">Help</a>
-                <a href="">Newsletters</a>
-                <a href="">Twitter</a>
-                <a href="">Instagram</a>
-                <a href="">Youtube</a>
-                <a href="">Facebook</a>
-                <a href="">Twitch</a>
+                <a href="https://medium.com/rario" target="_blank">Blogs</a>
+                <a href="https://rario.com/terms-of-use" target="_blank">Terms</a>
+                <a href="https://rario.com/privacy-policy" target="_blank">Privacy</a>
+                <a href="https://rario.freshdesk.com/support/home" target="_blank">Help</a>
+                <a href="https://rario.com/custom/press/p2KygpsMUAvoXLBqnsoxX" target="_blank">Press</a>
+                <a href="/">Newsletters</a>
+                <a href="https://twitter.com/rariohq" target="_blank">Twitter</a>
+                <a href="https://www.instagram.com/rariohq/" target="_blank">Instagram</a>
+                <a href="https://www.youtube.com/channel/UCqo65RCtVWBvICDMF6COhLA/featured" target="_blank">Youtube</a>
+                <a href="https://www.facebook.com/rarioglobal" target="_blank">Facebook</a>
+                <a href="https://www.twitch.tv/rariocomms" target="_blank">Twitch</a>
             </LinksContainer>
 
             <FooterImg>
