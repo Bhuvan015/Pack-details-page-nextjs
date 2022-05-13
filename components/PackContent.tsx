@@ -32,11 +32,12 @@ export const PackContent: React.FC<Props> = (props) => {
     )
 }
 
-
+// background-color: rgb(0, 9, 40);
 const Container = styled.div`
     width: 100%;
     min-height: 100vh;
-    background-color: rgb(0, 9, 40); 
+    background-color: rgb(0, 7, 30);
+ 
 `
 
 const MiniContainer = styled.div`

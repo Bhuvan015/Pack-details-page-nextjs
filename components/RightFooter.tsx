@@ -7,8 +7,8 @@ interface Props {
 }
 
 export const RightFooter: React.FC<Props> = (props) => {
-    let footerLogoHeight = 65;
-    let footerLogoWidth = 65;
+    let footerLogoHeight = 75;
+    let footerLogoWidth = 75;
     return(
         <Container>
             <LinksContainer>

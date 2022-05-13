@@ -42,20 +42,9 @@ a {
   height:18px;
   background-color: #fff;
   border-radius: 50%;
-  /* -webkit-box-shadow: -200px -2px 0px 200px rgb(255, 79, 31);
-  -moz-box-shadow: -200px -2px 0px 200px rgb(255, 79, 31);
-  box-shadow: -200px -2px 0px 200px rgb(255, 79, 31); */
-
-  /* -webkit-box-shadow: -167px -99px 5px 164px rgba(0,0,0,1);
-  -moz-box-shadow: -167px -99px 5px 164px rgba(0,0,0,1);
-  box-shadow: -165px -99px 5px 164px rgb(235, 101, 29); */
-
-  /* -webkit-box-shadow: -192px -121px 5px 192px rgba(0,0,0,0.75);
--moz-box-shadow: -192px -121px 5px 192px rgba(0,0,0,0.75);
-box-shadow: -192px -121px 5px 192px rgba(255, 128, 24, 0.87); */
--webkit-box-shadow: -195px -86px 43px 400px rgb(226, 101, 11);
--moz-box-shadow: -195px -86px 21px 400px rgb(226, 101, 11);
-box-shadow: -754px -86px 15px 750px rgb(226, 101, 11);
+  -webkit-box-shadow: -195px -86px 43px 400px #ff0000;
+  -moz-box-shadow: -195px -86px 21px 400px #ff0000;
+  box-shadow: -754px -86px 15px 750px #ff0000;
 
 }
 
