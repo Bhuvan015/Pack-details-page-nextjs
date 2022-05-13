@@ -41,10 +41,17 @@ export const MediaContainer: React.FC<Props> = (props) => {
 
 const Container = styled.div`
     width: 60%;
-    margin: 0 auto;
+    margin: 0 auto 75px auto;
     display: flex;
     align-items: center;
     justify-content: space-around;
+
+    @media only screen and (max-width: 768px) {
+        & {
+            margin: 0 auto;
+        }
+    }
+
 `
 const Div = styled.div`
     height: 100px;

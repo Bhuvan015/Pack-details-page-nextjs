@@ -48,7 +48,7 @@ const Container = styled.div`
 `
 const Para = styled.p`
     color: #fff;
-    opacity: 0.7;
+    opacity: 0.9;
     width: 75%;
     height: 10%;
     text-align: center;

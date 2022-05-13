@@ -44,7 +44,7 @@ const H1 = styled.h1`
 
 const Para = styled.p`
     margin-top: 15px;
-    opacity: 0.7;
+    opacity: 0.9;
 
     @media only screen and (max-width: 768px) {
         & {

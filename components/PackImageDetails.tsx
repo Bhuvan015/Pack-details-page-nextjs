@@ -301,7 +301,7 @@ const Quantity = styled.div`
     font-size: 24px;
     font-weight: 700;
     padding: 0;
-    border-bottom: 2px solid #1aa3ff;
+    border-bottom: 1px solid rgba(255,255,255, 0.4);
     
     
     @media only screen and (max-width: 768px) {

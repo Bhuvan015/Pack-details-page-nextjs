@@ -35,7 +35,7 @@ export const Navbar: React.FC<Props> = (props) => {
                         </div>
                         <div>
                             <a href="#">Club</a>
-                            <span>Sept 2021</span>
+                            <span>Dec 2021</span>
                         </div>
                         
                         
